@@ -1,0 +1,33 @@
+===================================================================== test session starts =====================================================================
+platform win32 -- Python 3.13.5, pytest-9.0.3, pluggy-1.7.0
+rootdir: <WORKSPACE>\outputs\AI本地验证-2026-11-20\nanochat
+configfile: pyproject.toml
+collected 40 items
+
+tests\test_tokenizer.py ..........                                                                                                                       [ 25%]
+tests\test_engine.py ........                                                                                                                            [ 45%]
+tests\test_attention_fallback.py sssssssss...s..                                                                                                         [ 82%]
+tests\test_tasks.py .......                                                                                                                              [100%]
+
+------------------ generated xml file: <WORKSPACE>\work\ai-validation\logs\nanochat-cpu-final-junit.xml ------------------
+==================================================================== slowest 10 durations =====================================================================
+0.02s call     tests/test_engine.py::test_different_seeds_introduce_variation_when_temperature_nonzero
+0.02s call     tests/test_engine.py::test_seed_reproducibility
+0.02s setup    tests/test_tokenizer.py::test_vocab_size
+0.01s call     tests/test_engine.py::test_max_tokens_respected
+0.01s call     tests/test_engine.py::test_num_samples_count
+0.01s call     tests/test_tasks.py::test_hub_dataset_rows
+
+(4 durations < 0.005s hidden.  Use -vv to show these durations.)
+=================================================================== short test summary info ===================================================================
+SKIPPED [1] tests\test_attention_fallback.py:58: FA3 required to compare implementations
+SKIPPED [1] tests\test_attention_fallback.py:72: FA3 required to compare implementations
+SKIPPED [1] tests\test_attention_fallback.py:86: FA3 required to compare implementations
+SKIPPED [1] tests\test_attention_fallback.py:101: FA3 required to compare implementations
+SKIPPED [1] tests\test_attention_fallback.py:118: FA3 required to compare implementations
+SKIPPED [1] tests\test_attention_fallback.py:132: FA3 required to compare implementations
+SKIPPED [1] tests\test_attention_fallback.py:155: FA3 required to compare implementations
+SKIPPED [1] tests\test_attention_fallback.py:182: FA3 required to compare implementations
+SKIPPED [1] tests\test_attention_fallback.py:215: FA3 required to compare implementations
+SKIPPED [1] tests\test_attention_fallback.py:343: FA3 required
+=============================================================== 30 passed, 10 skipped in 7.96s ================================================================

@@ -1,0 +1,117 @@
+2026-11-20 16:20:59,840 - rustbpe - INFO - Processing sequences from iterator (buffer_size: 8192)
+2026-11-20 16:20:59,842 - rustbpe - INFO - Processed 24 sequences total, 15 unique
+2026-11-20 16:20:59,842 - rustbpe - INFO - Starting BPE training: 55 merges to compute
+2026-11-20 16:20:59,842 - rustbpe - INFO - Computing initial pair counts from 15 unique sequences
+2026-11-20 16:20:59,843 - rustbpe - INFO - Building heap with 62 unique pairs
+2026-11-20 16:20:59,843 - rustbpe - INFO - Starting merge loop
+2026-11-20 16:20:59,843 - rustbpe - INFO - Progress: 1% (1/55 merges) - Last merge: (32, 110) -> 256 (frequency: 24)
+2026-11-20 16:20:59,843 - rustbpe - INFO - Progress: 3% (2/55 merges) - Last merge: (101, 108) -> 257 (frequency: 24)
+2026-11-20 16:20:59,843 - rustbpe - INFO - Progress: 5% (3/55 merges) - Last merge: (108, 111) -> 258 (frequency: 24)
+2026-11-20 16:20:59,844 - rustbpe - INFO - Progress: 7% (4/55 merges) - Last merge: (111, 114) -> 259 (frequency: 24)
+2026-11-20 16:20:59,844 - rustbpe - INFO - Progress: 9% (5/55 merges) - Last merge: (119, 259) -> 260 (frequency: 24)
+2026-11-20 16:20:59,844 - rustbpe - INFO - Progress: 10% (6/55 merges) - Last merge: (228, 184) -> 261 (frequency: 24)
+2026-11-20 16:20:59,844 - rustbpe - INFO - Progress: 12% (7/55 merges) - Last merge: (256, 101) -> 262 (frequency: 24)
+2026-11-20 16:20:59,844 - rustbpe - INFO - Progress: 14% (8/55 merges) - Last merge: (257, 258) -> 263 (frequency: 24)
+2026-11-20 16:20:59,844 - rustbpe - INFO - Progress: 16% (9/55 merges) - Last merge: (32, 65) -> 264 (frequency: 12)
+2026-11-20 16:20:59,844 - rustbpe - INFO - Progress: 18% (10/55 merges) - Last merge: (32, 97) -> 265 (frequency: 12)
+2026-11-20 16:20:59,844 - rustbpe - INFO - Progress: 20% (11/55 merges) - Last merge: (32, 240) -> 266 (frequency: 12)
+2026-11-20 16:20:59,845 - rustbpe - INFO - Progress: 21% (12/55 merges) - Last merge: (32, 260) -> 267 (frequency: 12)
+2026-11-20 16:20:59,845 - rustbpe - INFO - Progress: 23% (13/55 merges) - Last merge: (32, 261) -> 268 (frequency: 12)
+2026-11-20 16:20:59,845 - rustbpe - INFO - Progress: 25% (14/55 merges) - Last merge: (49, 50) -> 269 (frequency: 12)
+2026-11-20 16:20:59,845 - rustbpe - INFO - Progress: 27% (15/55 merges) - Last merge: (51, 52) -> 270 (frequency: 12)
+2026-11-20 16:20:59,845 - rustbpe - INFO - Progress: 29% (16/55 merges) - Last merge: (53, 54) -> 271 (frequency: 12)
+2026-11-20 16:20:59,845 - rustbpe - INFO - Progress: 30% (17/55 merges) - Last merge: (72, 263) -> 272 (frequency: 12)
+2026-11-20 16:20:59,845 - rustbpe - INFO - Progress: 32% (18/55 merges) - Last merge: (97, 108) -> 273 (frequency: 12)
+2026-11-20 16:20:59,846 - rustbpe - INFO - Progress: 34% (19/55 merges) - Last merge: (104, 263) -> 274 (frequency: 12)
+2026-11-20 16:20:59,846 - rustbpe - INFO - Progress: 36% (20/55 merges) - Last merge: (107, 115) -> 275 (frequency: 12)
+2026-11-20 16:20:59,846 - rustbpe - INFO - Progress: 38% (21/55 merges) - Last merge: (108, 100) -> 276 (frequency: 12)
+2026-11-20 16:20:59,846 - rustbpe - INFO - Progress: 40% (22/55 merges) - Last merge: (110, 100) -> 277 (frequency: 12)
+2026-11-20 16:20:59,846 - rustbpe - INFO - Progress: 41% (23/55 merges) - Last merge: (114, 273) -> 278 (frequency: 12)
+2026-11-20 16:20:59,846 - rustbpe - INFO - Progress: 43% (24/55 merges) - Last merge: (116, 260) -> 279 (frequency: 12)
+2026-11-20 16:20:59,847 - rustbpe - INFO - Progress: 45% (25/55 merges) - Last merge: (117, 278) -> 280 (frequency: 12)
+2026-11-20 16:20:59,847 - rustbpe - INFO - Progress: 47% (26/55 merges) - Last merge: (134, 232) -> 281 (frequency: 12)
+2026-11-20 16:20:59,847 - rustbpe - INFO - Progress: 49% (27/55 merges) - Last merge: (135, 229) -> 282 (frequency: 12)
+2026-11-20 16:20:59,847 - rustbpe - INFO - Progress: 50% (28/55 merges) - Last merge: (136, 281) -> 283 (frequency: 12)
+2026-11-20 16:20:59,847 - rustbpe - INFO - Progress: 52% (29/55 merges) - Last merge: (139, 232) -> 284 (frequency: 12)
+2026-11-20 16:20:59,847 - rustbpe - INFO - Progress: 54% (30/55 merges) - Last merge: (141, 261) -> 285 (frequency: 12)
+2026-11-20 16:20:59,847 - rustbpe - INFO - Progress: 56% (31/55 merges) - Last merge: (142, 229) -> 286 (frequency: 12)
+2026-11-20 16:20:59,847 - rustbpe - INFO - Progress: 58% (32/55 merges) - Last merge: (143, 230) -> 287 (frequency: 12)
+2026-11-20 16:20:59,848 - rustbpe - INFO - Progress: 60% (33/55 merges) - Last merge: (150, 10) -> 288 (frequency: 12)
+2026-11-20 16:20:59,848 - rustbpe - INFO - Progress: 61% (34/55 merges) - Last merge: (150, 282) -> 289 (frequency: 12)
+2026-11-20 16:20:59,848 - rustbpe - INFO - Progress: 63% (35/55 merges) - Last merge: (158, 284) -> 290 (frequency: 12)
+2026-11-20 16:20:59,848 - rustbpe - INFO - Progress: 65% (36/55 merges) - Last merge: (159, 164) -> 291 (frequency: 12)
+2026-11-20 16:20:59,848 - rustbpe - INFO - Progress: 67% (37/55 merges) - Last merge: (161, 229) -> 292 (frequency: 12)
+2026-11-20 16:20:59,848 - rustbpe - INFO - Progress: 69% (38/55 merges) - Last merge: (168, 292) -> 293 (frequency: 12)
+2026-11-20 16:20:59,849 - rustbpe - INFO - Progress: 70% (39/55 merges) - Last merge: (173, 230) -> 294 (frequency: 12)
+2026-11-20 16:20:59,849 - rustbpe - INFO - Progress: 72% (40/55 merges) - Last merge: (173, 231) -> 295 (frequency: 12)
+2026-11-20 16:20:59,849 - rustbpe - INFO - Progress: 74% (41/55 merges) - Last merge: (174, 295) -> 296 (frequency: 12)
+2026-11-20 16:20:59,849 - rustbpe - INFO - Progress: 76% (42/55 merges) - Last merge: (175, 285) -> 297 (frequency: 12)
+2026-11-20 16:20:59,849 - rustbpe - INFO - Progress: 78% (43/55 merges) - Last merge: (176, 287) -> 298 (frequency: 12)
+2026-11-20 16:20:59,849 - rustbpe - INFO - Progress: 80% (44/55 merges) - Last merge: (187, 131) -> 299 (frequency: 12)
+2026-11-20 16:20:59,849 - rustbpe - INFO - Progress: 81% (45/55 merges) - Last merge: (262, 279) -> 300 (frequency: 12)
+2026-11-20 16:20:59,850 - rustbpe - INFO - Progress: 83% (46/55 merges) - Last merge: (262, 280) -> 301 (frequency: 12)
+2026-11-20 16:20:59,850 - rustbpe - INFO - Progress: 85% (47/55 merges) - Last merge: (264, 73) -> 302 (frequency: 12)
+2026-11-20 16:20:59,850 - rustbpe - INFO - Progress: 87% (48/55 merges) - Last merge: (265, 277) -> 303 (frequency: 12)
+2026-11-20 16:20:59,850 - rustbpe - INFO - Progress: 89% (49/55 merges) - Last merge: (266, 291) -> 304 (frequency: 12)
+2026-11-20 16:20:59,850 - rustbpe - INFO - Progress: 90% (50/55 merges) - Last merge: (267, 276) -> 305 (frequency: 12)
+2026-11-20 16:20:59,851 - rustbpe - INFO - Progress: 92% (51/55 merges) - Last merge: (268, 294) -> 306 (frequency: 12)
+2026-11-20 16:20:59,851 - rustbpe - INFO - Progress: 94% (52/55 merges) - Last merge: (283, 297) -> 307 (frequency: 12)
+2026-11-20 16:20:59,851 - rustbpe - INFO - Progress: 96% (53/55 merges) - Last merge: (286, 298) -> 308 (frequency: 12)
+2026-11-20 16:20:59,851 - rustbpe - INFO - Progress: 98% (54/55 merges) - Last merge: (289, 307) -> 309 (frequency: 12)
+2026-11-20 16:20:59,851 - rustbpe - INFO - Progress: 100% (55/55 merges) - Last merge: (290, 296) -> 310 (frequency: 12)
+2026-11-20 16:20:59,851 - rustbpe - INFO - Finished training: 55 merges completed
+Padding vocab_size from 32 to 64 for efficiency
+Padding vocab_size from 32 to 64 for efficiency
+{
+  "task": "nanochat synthetic-token CPU training + tokenizer + checkpoint roundtrip",
+  "torch": "2.9.1+cpu",
+  "device": "cpu",
+  "threads": 2,
+  "seed": 20261120,
+  "parameters": 110646,
+  "config": {
+    "sequence_len": 32,
+    "vocab_size": 32,
+    "n_layer": 2,
+    "n_head": 2,
+    "n_kv_head": 2,
+    "n_embd": 64,
+    "window_pattern": "L"
+  },
+  "steps": 80,
+  "initial_loss": 3.4730796813964844,
+  "final_loss": 0.0004132540780119598,
+  "training_token_accuracy": 1.0,
+  "history": [
+    {
+      "step": 1,
+      "loss": 3.4730796813964844
+    },
+    {
+      "step": 10,
+      "loss": 0.07099734246730804
+    },
+    {
+      "step": 20,
+      "loss": 0.002907885704189539
+    },
+    {
+      "step": 40,
+      "loss": 0.0005774428718723357
+    },
+    {
+      "step": 80,
+      "loss": 0.0004141588869970292
+    }
+  ],
+  "checkpoint_roundtrip_exact": true,
+  "multilingual_tokenizer_roundtrip": true,
+  "tokenizer_vocab_size": 320,
+  "elapsed_seconds": 1.145,
+  "network_data_or_models_downloaded": false,
+  "limitations": [
+    "Overfits a tiny synthetic repeating sequence, not a real language dataset or LLM quality benchmark.",
+    "Uses torch.optim.AdamW in eager CPU mode; does not validate upstream Muon/distributed/torch.compile optimizers.",
+    "Does not run full pretraining/SFT/evaluation pipeline or GPU performance tests."
+  ]
+}

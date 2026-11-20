@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites name="pytest tests"><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="44.987" timestamp="2026-11-20T16:18:45.989032+08:00"><testcase classname="" name="tests.test_tasks" time="0.000"><error message="collection failure">ImportError while importing test module '&lt;WORKSPACE&gt;\outputs\AI本地验证-2026-11-20\nanochat\tests\test_tasks.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+&lt;BASE_PYTHON&gt;\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_tasks.py:8: in &lt;module&gt;
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'</error></testcase></testsuite></testsuites>

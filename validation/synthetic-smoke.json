@@ -1,0 +1,53 @@
+{
+  "task": "nanochat synthetic-token CPU training + tokenizer + checkpoint roundtrip",
+  "torch": "2.9.1+cpu",
+  "device": "cpu",
+  "threads": 2,
+  "seed": 20261120,
+  "parameters": 110646,
+  "config": {
+    "sequence_len": 32,
+    "vocab_size": 32,
+    "n_layer": 2,
+    "n_head": 2,
+    "n_kv_head": 2,
+    "n_embd": 64,
+    "window_pattern": "L"
+  },
+  "steps": 80,
+  "initial_loss": 3.4730796813964844,
+  "final_loss": 0.0004132540780119598,
+  "training_token_accuracy": 1.0,
+  "history": [
+    {
+      "step": 1,
+      "loss": 3.4730796813964844
+    },
+    {
+      "step": 10,
+      "loss": 0.07099734246730804
+    },
+    {
+      "step": 20,
+      "loss": 0.002907885704189539
+    },
+    {
+      "step": 40,
+      "loss": 0.0005774428718723357
+    },
+    {
+      "step": 80,
+      "loss": 0.0004141588869970292
+    }
+  ],
+  "checkpoint_roundtrip_exact": true,
+  "multilingual_tokenizer_roundtrip": true,
+  "tokenizer_vocab_size": 320,
+  "elapsed_seconds": 1.145,
+  "network_data_or_models_downloaded": false,
+  "limitations": [
+    "Overfits a tiny synthetic repeating sequence, not a real language dataset or LLM quality benchmark.",
+    "Uses torch.optim.AdamW in eager CPU mode; does not validate upstream Muon/distributed/torch.compile optimizers.",
+    "Does not run full pretraining/SFT/evaluation pipeline or GPU performance tests."
+  ]
+}

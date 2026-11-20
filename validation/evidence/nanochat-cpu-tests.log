@@ -1,0 +1,28 @@
+===================================================================== test session starts =====================================================================
+platform win32 -- Python 3.13.5, pytest-9.0.3, pluggy-1.7.0
+rootdir: <WORKSPACE>\outputs\AI本地验证-2026-11-20\nanochat
+configfile: pyproject.toml
+collected 33 items / 1 error
+
+=========================================================================== ERRORS ============================================================================
+____________________________________________________________ ERROR collecting tests/test_tasks.py _____________________________________________________________
+ImportError while importing test module '<WORKSPACE>\outputs\AI本地验证-2026-11-20\nanochat\tests\test_tasks.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+<BASE_PYTHON>\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\test_tasks.py:8: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+====================================================================== warnings summary =======================================================================
+..\..\..\work\ai-validation\venvs\nanochat\Lib\site-packages\torch\_subclasses\functional_tensor.py:279
+  <WORKSPACE>\work\ai-validation\venvs\nanochat\Lib\site-packages\torch\_subclasses\functional_tensor.py:279: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:84.)
+    cpu = _conversion_method_template(device=torch.device("cpu"))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+--------------------- generated xml file: <WORKSPACE>\work\ai-validation\logs\nanochat-cpu-junit.xml ---------------------
+=================================================================== short test summary info ===================================================================
+ERROR tests/test_tasks.py
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+================================================================ 1 warning, 1 error in 45.00s =================================================================
